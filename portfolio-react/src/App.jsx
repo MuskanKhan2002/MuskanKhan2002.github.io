@@ -211,6 +211,9 @@ export default function App() {
               {l.label}
             </a>
           ))}
+          <a className="nav__mobile-link nav__mobile-resume" href="https://drive.google.com/file/d/1_JvbBjJStXcKk9GMVFN4-BRakfKTZ3kK/view?usp=sharing" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>
+            Resume
+          </a>
         </div>
       </nav>
 
@@ -246,6 +249,10 @@ export default function App() {
               <div className="hero__actions reveal">
                 <a className="btn btn-primary" href="#projects" onClick={(e) => scrollTo(e, '#projects')}>VIEW WORK</a>
                 <a className="btn btn-ghost" href="mailto:muskanapril2002@gmail.com">GET IN TOUCH</a>
+                <a className="btn btn-outline" href="https://drive.google.com/file/d/1_JvbBjJStXcKk9GMVFN4-BRakfKTZ3kK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <span className="material-symbols-outlined" style={{ fontSize: '18px', marginRight: '6px' }}>download</span>
+                  DOWNLOAD RESUME
+                </a>
               </div>
             </div>
 

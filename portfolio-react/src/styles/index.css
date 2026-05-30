@@ -124,6 +124,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
 .btn-primary:active { transform:translateY(0) scale(0.98); }
 .btn-ghost { padding:15px 31px; border:1px solid rgba(79,219,200,0.4); color:var(--accent-cyan); background:transparent; }
 .btn-ghost:hover { background:rgba(79,219,200,0.08); border-color:var(--accent-cyan); transform:translateY(-2px); box-shadow:0 4px 20px -4px rgba(79,219,200,0.25); }
+.btn-outline { padding:15px 31px; border:1px solid rgba(255,183,134,0.4); color:var(--accent-orange); background:transparent; display:inline-flex; align-items:center; }
+.btn-outline:hover { background:rgba(255,183,134,0.08); border-color:var(--accent-orange); transform:translateY(-2px); box-shadow:0 4px 20px -4px rgba(255,183,134,0.25); }
 .btn-sm { padding:8px 16px; font-size:11px; border-radius:var(--radius-sm); }
 .btn-cert { border:1px solid rgba(167,139,250,0.3); color:var(--accent-purple); }
 .btn-cert:hover { background:rgba(167,139,250,0.1); border-color:var(--accent-purple); transform:translateY(-1px); }
@@ -172,6 +174,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
 .nav__mobile-menu.open { display:flex; }
 .nav__mobile-link { padding:14px 16px; border-radius:var(--radius-sm); color:var(--text-secondary); font-size:15px; transition:color var(--transition-base),background var(--transition-base); }
 .nav__mobile-link:hover { color:var(--text-primary); background:rgba(255,255,255,0.04); }
+.nav__mobile-resume { margin-top:8px; padding-top:14px; border-top:1px solid var(--border); color:var(--accent-orange); font-weight:600; }
 
 /* ============================================
    HERO
@@ -342,6 +345,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
 }
 @media (max-width:480px) {
   .hero__actions { flex-direction:column; }
-  .btn-primary,.btn-ghost { width:100%; justify-content:center; }
+  .btn-primary,.btn-ghost,.btn-outline { width:100%; justify-content:center; }
   .achievement-card__footer { flex-direction:column; align-items:flex-start; }
 }
