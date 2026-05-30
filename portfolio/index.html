@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muskan Khan — Data Engineer at Pacific Data Integrators. IIT Dhanbad grad specializing in cloud data integration, ETL architectures, and AI-driven pipelines." />
+  <title>Muskan Khan | Data Engineer</title>
+
+  <!-- Preconnect to font origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/src/style.css" />
+  <script type="module" src="/src/main.js" defer></script>
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a class="nav__logo" href="#" aria-label="Home">Muskan<span>.</span>Khan</a>
+
+      <div class="nav__links" role="list">
+        <a class="nav__link t-label" href="#about" role="listitem">About</a>
+        <a class="nav__link t-label" href="#experience" role="listitem">Experience</a>
+        <a class="nav__link t-label" href="#achievements" role="listitem">Achievements</a>
+        <a class="nav__link t-label" href="#projects" role="listitem">Projects</a>
+        <a class="nav__link t-label" href="#skills" role="listitem">Skills</a>
+        <a class="nav__link t-label" href="#contact" role="listitem">Contact</a>
+      </div>
+
+      <a class="nav__resume t-label" href="https://drive.google.com/file/d/1_JvbBjJStXcKk9GMVFN4-BRakfKTZ3kK/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Download resume">Resume</a>
+
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile-menu" id="mobile-menu" aria-hidden="true" role="menu">
+      <a class="nav__mobile-link" href="#about" role="menuitem">About</a>
+      <a class="nav__mobile-link" href="#experience" role="menuitem">Experience</a>
+      <a class="nav__mobile-link" href="#achievements" role="menuitem">Achievements</a>
+      <a class="nav__mobile-link" href="#projects" role="menuitem">Projects</a>
+      <a class="nav__mobile-link" href="#skills" role="menuitem">Skills</a>
+      <a class="nav__mobile-link" href="#contact" role="menuitem">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero section container" id="about" aria-label="Introduction">
+      <!-- Decorative orbs -->
+      <div class="orb orb--blue" style="top:-10%;left:-10%;" aria-hidden="true"></div>
+      <div class="orb orb--cyan" style="top:40%;right:-5%;" aria-hidden="true"></div>
+      <div class="orb orb--purple" style="bottom:-15%;left:30%;" aria-hidden="true"></div>
+
+      <div class="hero__split">
+        <!-- Left: text content -->
+        <div class="hero__text">
+          <div class="hero__badge reveal" aria-label="Available for opportunities">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span class="t-code" style="color:var(--accent-cyan);">OPEN TO OPPORTUNITIES</span>
+          </div>
+
+          <p class="hero__subtitle reveal">Hi, I'm Muskan Khan</p>
+
+          <h1 class="t-display hero__title reveal">
+            I build <span class="gradient-text">data systems</span> that power intelligent decisions.
+          </h1>
+
+          <div class="hero__desc reveal">
+            <p class="t-body">
+              Data Engineer at Pacific Data Integrators and IIT Dhanbad graduate, I architect large-scale cloud
+              data integration and ETL pipelines using IDMC, PySpark, and Snowflake&mdash;cutting IT costs by 45%
+              and accelerating processing by 40%. From winning the Meesho Dice Hackathon to reaching the Top 5
+              in ServiceNow's national coding challenge, I turn complex data problems into production-ready solutions.
+            </p>
+          </div>
+
+          <div class="hero__actions reveal">
+            <a class="btn btn-primary" href="#projects">VIEW WORK</a>
+            <a class="btn btn-ghost" href="mailto:muskanapril2002@gmail.com">GET IN TOUCH</a>
+          </div>
+        </div>
+
+        <!-- Right: profile photo -->
+        <div class="hero__photo reveal" aria-hidden="false">
+          <div class="hero__photo-wrapper">
+            <img
+              src="https://lh3.googleusercontent.com/d/1G9Sc4QA8Y_La-CavxfEeedWXFjw3Snc2"
+              alt="Muskan Khan — Data Engineer"
+              loading="eager"
+              width="380"
+              height="460"
+            />
+            <div class="hero__photo-glow" aria-hidden="true"></div>
+            <div class="hero__photo-border" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__stats reveal">
+        <div>
+          <div class="hero__stat-value">45%</div>
+          <div class="hero__stat-label t-label">Cost Reduction</div>
+        </div>
+        <div>
+          <div class="hero__stat-value">40%</div>
+          <div class="hero__stat-label t-label">Faster Processing</div>
+        </div>
+        <div>
+          <div class="hero__stat-value">7000+</div>
+          <div class="hero__stat-label t-label">Teams Beaten</div>
+        </div>
+        <div>
+          <div class="hero__stat-value">100%</div>
+          <div class="hero__stat-label t-label">Data Integrity</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section container" id="experience" aria-label="Work experience">
+      <header class="section-header reveal">
+        <div class="section-header__icon section-header__icon--blue">
+          <span class="material-symbols-outlined" aria-hidden="true" style="font-variation-settings:'FILL' 1">terminal</span>
+        </div>
+        <h2 class="t-headline-lg">Experience</h2>
+        <div class="section-header__line" aria-hidden="true"></div>
+      </header>
+
+      <div class="timeline" role="list">
+        <div class="timeline__line" aria-hidden="true"></div>
+
+        <!-- PDI -->
+        <article class="timeline__item reveal" role="listitem">
+          <div class="timeline__date">
+            <span class="t-code">Feb 2026 – Present</span>
+          </div>
+          <div class="timeline__dot" aria-hidden="true"></div>
+          <div class="timeline__content">
+            <div class="card timeline__card">
+              <h3 class="t-headline-md">Data Engineer</h3>
+              <p class="t-code company">Pacific Data Integrators</p>
+              <p class="t-body desc">
+                Architected large-scale cloud data integration and modernization initiatives leveraging IDMC,
+                PowerCenter, and Ab Initio&mdash;reducing IT costs by 45% and accelerating data processing by 40%.
+                Directed cross-functional agile teams, maintaining near 100% data integrity and system uptime.
+                Engineered scalable data warehouses across Snowflake, Oracle, and MySQL.
+              </p>
+              <div class="timeline__chips">
+                <span class="chip">PySpark</span>
+                <span class="chip">IDMC</span>
+                <span class="chip">Snowflake</span>
+                <span class="chip">Airflow</span>
+                <span class="chip">Ab Initio</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Joveo -->
+        <article class="timeline__item timeline__item--right reveal" role="listitem">
+          <div class="timeline__date">
+            <span class="t-code">May 2025 – Sep 2025</span>
+          </div>
+          <div class="timeline__dot timeline__dot--cyan" aria-hidden="true"></div>
+          <div class="timeline__content">
+            <div class="card timeline__card">
+              <h3 class="t-headline-md">Full Stack Developer Intern</h3>
+              <p class="t-code company">Joveo</p>
+              <p class="t-body desc">
+                Created backend APIs in the content management system to detect version differences of published websites.
+                Engineered internal APIs and client-facing interfaces, boosting core feature performance and driving a 25%
+                increase in user engagement.
+              </p>
+              <div class="timeline__chips">
+                <span class="chip">Java</span>
+                <span class="chip">Spring Boot</span>
+                <span class="chip">React</span>
+                <span class="chip">PostgreSQL</span>
+              </div>
+              <div style="margin-top:16px;">
+                <a class="btn btn-sm btn-cert" href="https://drive.google.com/file/d/1VS93Q--brXRxfusf0axqHcAikWRqOSQr/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <span class="material-symbols-outlined">open_in_new</span>
+                  View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== ACHIEVEMENTS ===================== -->
+    <section class="section container" id="achievements" aria-label="Achievements">
+      <header class="section-header reveal">
+        <div class="section-header__icon section-header__icon--orange">
+          <span class="material-symbols-outlined" aria-hidden="true" style="font-variation-settings:'FILL' 1">trophy</span>
+        </div>
+        <h2 class="t-headline-lg">Achievements</h2>
+        <div class="section-header__line" aria-hidden="true"></div>
+      </header>
+
+      <div class="achievements-grid reveal-stagger">
+        <!-- Meesho Hackathon -->
+        <article class="card achievement-card reveal">
+          <div class="achievement-card__accent achievement-card__accent--cyan" aria-hidden="true"></div>
+          <span class="material-symbols-outlined achievement-card__bg-icon" style="color:var(--accent-cyan);" aria-hidden="true">workspace_premium</span>
+          <p class="t-label achievement-card__label" style="color:var(--accent-cyan);">HACKATHON WINNER</p>
+          <h3 class="t-headline-md achievement-card__title">Meesho Dice Hackathon 2024</h3>
+          <p class="t-body achievement-card__desc">
+            First place out of 7,000+ competing teams, demonstrating exceptional problem-solving and rapid technical implementation under pressure.
+          </p>
+          <div class="achievement-card__footer">
+            <span class="chip" style="border-color:rgba(79,219,200,0.2);color:var(--accent-cyan);">1st Place</span>
+            <a class="btn btn-sm btn-cert" href="https://drive.google.com/file/d/1fqLyjv5D361B7Q6-fJT9ClPVzV8MX7OC/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <span class="material-symbols-outlined">open_in_new</span>
+              View Certificate
+            </a>
+          </div>
+        </article>
+
+        <!-- ServiceNow -->
+        <article class="card achievement-card reveal">
+          <div class="achievement-card__accent achievement-card__accent--blue" aria-hidden="true"></div>
+          <span class="material-symbols-outlined achievement-card__bg-icon" style="color:var(--accent-blue);" aria-hidden="true">military_tech</span>
+          <p class="t-label achievement-card__label" style="color:var(--accent-blue);">NATIONAL FINALIST</p>
+          <h3 class="t-headline-md achievement-card__title">ServiceNow Women Code to Win 2025</h3>
+          <p class="t-body achievement-card__desc">
+            Top 5 finalist nationwide, outperforming 56,000 teams in a high-stakes technical challenge requiring algorithmic precision and speed.
+          </p>
+          <div class="achievement-card__footer">
+            <span class="chip" style="border-color:rgba(77,142,255,0.2);color:var(--accent-blue);">Top 5 / 56K</span>
+            <a class="btn btn-sm btn-cert" href="https://drive.google.com/file/d/1iOeSRm1gSJvgfwVo2ALt6mTqbg7MMLaI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <span class="material-symbols-outlined">open_in_new</span>
+              View Certificate
+            </a>
+          </div>
+        </article>
+
+        <!-- JEE -->
+        <article class="card achievement-card reveal">
+          <div class="achievement-card__accent achievement-card__accent--blue" aria-hidden="true"></div>
+          <span class="material-symbols-outlined achievement-card__bg-icon" style="color:var(--accent-purple);" aria-hidden="true">school</span>
+          <p class="t-label achievement-card__label" style="color:var(--accent-purple);">NATIONAL EXAM</p>
+          <h3 class="t-headline-md achievement-card__title">JEE Mains &amp; Advanced 2021</h3>
+          <p class="t-body achievement-card__desc">
+            Secured a rank within the top 5% of all candidates in both JEE Mains and JEE Advanced, earning admission to IIT (ISM) Dhanbad.
+          </p>
+          <div class="achievement-card__footer">
+            <span class="chip" style="border-color:rgba(167,139,250,0.2);color:var(--accent-purple);">Top 5%</span>
+          </div>
+        </article>
+
+        <!-- Unstop Talent Awards -->
+        <article class="card achievement-card reveal">
+          <div class="achievement-card__accent achievement-card__accent--blue" aria-hidden="true"></div>
+          <span class="material-symbols-outlined achievement-card__bg-icon" style="color:var(--accent-pink);" aria-hidden="true">stars</span>
+          <p class="t-label achievement-card__label" style="color:var(--accent-pink);">TALENT AWARD</p>
+          <h3 class="t-headline-md achievement-card__title">Unstoppable Leaders 2025</h3>
+          <p class="t-body achievement-card__desc">
+            Recognized at the Unstop Talent Awards 2025 as one of the Unstoppable Leaders, celebrating outstanding achievement and leadership potential.
+          </p>
+          <div class="achievement-card__footer">
+            <span class="chip" style="border-color:rgba(244,114,182,0.2);color:var(--accent-pink);">Unstop 2025</span>
+            <a class="btn btn-sm btn-cert" href="https://unstop.com/awards/u/muskan-khan-2450173/2025" target="_blank" rel="noopener noreferrer">
+              <span class="material-symbols-outlined">open_in_new</span>
+              View Award
+            </a>
+          </div>
+        </article>
+
+        <!-- Technical Head -->
+        <article class="card achievement-card reveal">
+          <div class="achievement-card__accent achievement-card__accent--cyan" aria-hidden="true"></div>
+          <span class="material-symbols-outlined achievement-card__bg-icon" style="color:var(--accent-orange);" aria-hidden="true">groups</span>
+          <p class="t-label achievement-card__label" style="color:var(--accent-orange);">LEADERSHIP</p>
+          <h3 class="t-headline-md achievement-card__title">Technical Head — Concetto 2024</h3>
+          <p class="t-body achievement-card__desc">
+            Led the technical wing of IIT (ISM) Dhanbad's official Techno-Management fest, coordinating cross-team logistics and technical events.
+          </p>
+          <div class="achievement-card__footer">
+            <span class="chip" style="border-color:rgba(255,183,134,0.2);color:var(--accent-orange);">IIT Dhanbad</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section container" id="projects" aria-label="Projects">
+      <header class="section-header reveal">
+        <div class="section-header__icon section-header__icon--cyan">
+          <span class="material-symbols-outlined" aria-hidden="true" style="font-variation-settings:'FILL' 1">schema</span>
+        </div>
+        <h2 class="t-headline-lg">Projects</h2>
+        <div class="section-header__line" aria-hidden="true"></div>
+      </header>
+
+      <div class="projects-grid reveal-stagger">
+        <!-- ETL Pipeline -->
+        <article class="card project-card reveal">
+          <div class="project-card__visual">
+            <div class="project-card__visual-gradient" style="background:radial-gradient(ellipse at center, var(--accent-blue) 0%, transparent 70%);"></div>
+            <span class="material-symbols-outlined project-card__visual-icon" style="color:var(--accent-blue);" aria-hidden="true">database</span>
+          </div>
+          <div class="project-card__body">
+            <h3 class="t-headline-md project-card__title">End-to-End ETL Pipeline</h3>
+            <p class="t-body project-card__desc">
+              Automated ETL pipeline ingesting and transforming 19,000+ sales records from CSV to SQL Server with automated truncation and precision tuning.
+            </p>
+            <div class="project-card__stat">
+              <span class="project-card__stat-dot" style="background:var(--accent-blue);"></span>
+              <span class="t-code">19K+ records processed</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Stock Market Agent -->
+        <article class="card project-card reveal">
+          <div class="project-card__visual">
+            <div class="project-card__visual-gradient" style="background:radial-gradient(ellipse at center, var(--accent-cyan) 0%, transparent 70%);"></div>
+            <span class="material-symbols-outlined project-card__visual-icon" style="color:var(--accent-cyan);" aria-hidden="true">smart_toy</span>
+          </div>
+          <div class="project-card__body">
+            <h3 class="t-headline-md project-card__title">Stock Market Agent</h3>
+            <p class="t-body project-card__desc">
+              AI-powered agent using FastAPI, LangChain, and Gemini LLM to deliver Buy/Sell/Hold recommendations with 20% improved decision accuracy.
+            </p>
+            <div class="project-card__stat">
+              <span class="project-card__stat-dot" style="background:var(--accent-cyan);"></span>
+              <span class="t-code">+20% accuracy</span>
+            </div>
+            <a class="project-card__link t-label" href="https://github.com/MUSKANKHAN7806/simplify_money_python_api" target="_blank" rel="noopener noreferrer">
+              VIEW REPO <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- WhatsApp Analyzer -->
+        <article class="card project-card reveal">
+          <div class="project-card__visual">
+            <div class="project-card__visual-gradient" style="background:radial-gradient(ellipse at center, var(--accent-orange-dim) 0%, transparent 70%);"></div>
+            <span class="material-symbols-outlined project-card__visual-icon" style="color:var(--accent-orange);" aria-hidden="true">analytics</span>
+          </div>
+          <div class="project-card__body">
+            <h3 class="t-headline-md project-card__title">WhatsApp Analyzer</h3>
+            <p class="t-body project-card__desc">
+              Data visualization pipeline with flexible regex parsing, platform-aware timestamp handling, and "Loyal Users" detection across 7-day activity windows.
+            </p>
+            <div class="project-card__stat">
+              <span class="project-card__stat-dot" style="background:var(--accent-orange);"></span>
+              <span class="t-code">Real-time metrics</span>
+            </div>
+            <a class="project-card__link t-label" href="https://github.com/MUSKANKHAN7806/wtsp_analyzer_tool" target="_blank" rel="noopener noreferrer">
+              VIEW REPO <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== TECHNICAL SKILLS ===================== -->
+    <section class="section container" id="skills" aria-label="Technical skills">
+      <header class="section-header reveal">
+        <div class="section-header__icon section-header__icon--purple">
+          <span class="material-symbols-outlined" aria-hidden="true" style="font-variation-settings:'FILL' 1">code</span>
+        </div>
+        <h2 class="t-headline-lg">Technical Skills</h2>
+        <div class="section-header__line" aria-hidden="true"></div>
+      </header>
+
+      <div class="skills-container reveal-stagger">
+        <div class="card skill-group reveal">
+          <div class="skill-group__title">
+            <span class="material-symbols-outlined" aria-hidden="true">data_object</span>
+            <span class="t-label" style="color:var(--text-primary);">Languages</span>
+          </div>
+          <div class="skill-group__list">
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">C++</span>
+            <span class="chip">SQL</span>
+            <span class="chip">HTML/CSS</span>
+            <span class="chip">Shell</span>
+          </div>
+        </div>
+
+        <div class="card skill-group reveal">
+          <div class="skill-group__title">
+            <span class="material-symbols-outlined" aria-hidden="true">cloud</span>
+            <span class="t-label" style="color:var(--text-primary);">Platforms & Tools</span>
+          </div>
+          <div class="skill-group__list">
+            <span class="chip">Snowflake</span>
+            <span class="chip">AWS</span>
+            <span class="chip">GCP</span>
+            <span class="chip">Azure AI</span>
+            <span class="chip">Databricks</span>
+            <span class="chip">Informatica Cloud</span>
+            <span class="chip">Kafka</span>
+            <span class="chip">Spark</span>
+            <span class="chip">Airflow</span>
+          </div>
+        </div>
+
+        <div class="card skill-group reveal">
+          <div class="skill-group__title">
+            <span class="material-symbols-outlined" aria-hidden="true">hub</span>
+            <span class="t-label" style="color:var(--text-primary);">Frameworks & Concepts</span>
+          </div>
+          <div class="skill-group__list">
+            <span class="chip">FastAPI</span>
+            <span class="chip">React</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">ETL Pipelines</span>
+            <span class="chip">AI/ML</span>
+            <span class="chip">NLP</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">Tableau</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CERTIFICATIONS ===================== -->
+    <section class="section container" id="certifications" aria-label="Certifications">
+      <header class="section-header reveal">
+        <div class="section-header__icon section-header__icon--blue">
+          <span class="material-symbols-outlined" aria-hidden="true" style="font-variation-settings:'FILL' 1">verified</span>
+        </div>
+        <h2 class="t-headline-lg">Certifications</h2>
+        <div class="section-header__line" aria-hidden="true"></div>
+      </header>
+
+      <div class="certs-grid reveal-stagger">
+        <article class="card cert-card reveal">
+          <div class="cert-card__icon cert-card__icon--cyan">
+            <span class="material-symbols-outlined" aria-hidden="true">verified</span>
+          </div>
+          <div class="cert-card__content">
+            <h3 class="cert-card__title">Informatica Certified Professional</h3>
+            <p class="t-code cert-card__sub">Cloud Application Integration Developer R42</p>
+            <div class="cert-card__actions">
+              <a class="btn btn-sm btn-cert" href="https://drive.google.com/file/d/1jckkrWCBSIMbdbC0F8Vvp2-gN_0D3CWi/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <span class="material-symbols-outlined">open_in_new</span>
+                View Certificate
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card cert-card reveal">
+          <div class="cert-card__icon cert-card__icon--blue">
+            <span class="material-symbols-outlined" aria-hidden="true">rocket_launch</span>
+          </div>
+          <div class="cert-card__content">
+            <h3 class="cert-card__title">JEE Mains &amp; Advanced 2021</h3>
+            <p class="t-code cert-card__sub">Top 5% of all candidates nationwide</p>
+            <div class="cert-card__actions">
+              <a class="btn btn-sm btn-cert" href="#" target="_blank" rel="noopener noreferrer">
+                <span class="material-symbols-outlined">open_in_new</span>
+                View Certificate
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" id="contact" role="contentinfo">
+    <div class="footer__inner container">
+      <span class="footer__brand">MK<span>.</span>DATA</span>
+      <p class="footer__copy">&copy; 2024 Muskan Khan. Engineered for Performance.</p>
+      <div class="footer__links">
+        <a class="footer__link t-label" href="https://www.linkedin.com/in/muskan-khan-82a04b241/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+        <a class="footer__link t-label" href="https://github.com/MUSKANKHAN7806" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+        <a class="footer__link t-label" href="mailto:muskanapril2002@gmail.com" aria-label="Send email">Email</a>
+        <a class="footer__link t-label" href="tel:+918003389910" aria-label="Call">+91-8003389910</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
